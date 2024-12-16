@@ -86,20 +86,130 @@ textarea:not([rows]) {
 --Light-Gray: hsl(0, 0%, 75%);
 }
 body {
+  background-color: white;
   font-family: 'Open Sans', serif;
   font-weight: 400;
   font-size: 1rem;
+  color: var(--Very-Dark-Blue);
 }
 .wrapper {
   display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20px;
+}
+.wrapper a {
+  text-decoration: none;
+}
+.card {
+  border: 1px solid black;
+  border-radius: 1rem;
+  padding: 15px;
+  margin: 20px;
+  background-color: white;
+}
+.card p {
+  display: flex;
   flex-direction: column;
+}
+input {
+  color: var(--Light-Grayish-Blue)
+}
+a {
+  text-decoration: none;
+}
+.files {
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 15px;
+  margin: 10px;
+}
+button {
+  border-radius: 6px;
+  padding: 10px;
+  border: none;
+  background-color: var(--Bright-Blue);
+  color: var(--Light-Grayish-Blue);
+}
+input {
+  padding: 6px;
+}
+.productive {
+  display: flex; 
+  flex-direction: column-reverse;
+  padding: 15px;
+  margin-top: 1em;
+  background-image: url('bg-curve-mobile.svg');
+}
+.productive a {
+  border-bottom: var(--Moderate-Cyan);
+  color: var(--Moderate-Cyan);
+}
+.works {
+  display: flex;
+}
+.access {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--Desaturated-Blue);
+  color: var(--Light-Grayish-Blue);
+  padding: 15px;
+}
+.feeter {
+  color: var(--Light-Grayish-Blue)
+}
+.feeter span {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+.access input {
+  color: var(--Light-Grayish-Blue);
+}
+footer {
+  background-color: var(--Very-Dark-Blue);
+  color: var(--Light-Grayish-Blue);
+  padding: 15px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.wrapper ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 2em;
+}
+.feeter {
+  display: flex;
+  flex-direction: row;
   justify-content: space-between;
 }
 ul {
-  display: flex;
-  flex-direction: column;
   list-style: none;
-  justify-content: end;
+}
+@media screen and (min-width: 37.5rem) {
+  .wrapper {
+    justify-content: space-between;
+  }
+  .files {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    margin: 15px;
+  }
+  .productive {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    background-image: url('bg-curve-desktop.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .access {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+  }
 }
 .attribution { 
   font-size: 11px; 
