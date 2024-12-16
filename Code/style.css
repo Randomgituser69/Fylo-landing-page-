@@ -84,7 +84,10 @@ textarea:not([rows]) {
 /* Neutral */
 --Light-Grayish-Blue: hsl(240, 75%, 98%);
 --Light-Gray: hsl(0, 0%, 75%);
-  }
+}
+body {
+  font-size: 1rem;
+}
 .attribution { 
   font-size: 11px; 
   text-align: center; 
