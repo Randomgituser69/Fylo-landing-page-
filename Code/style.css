@@ -87,6 +87,7 @@ textarea:not([rows]) {
 }
 body {
   font-family: 'Open Sans', serif;
+  font-weight: 400;
   font-size: 1rem;
 }
 .attribution { 
