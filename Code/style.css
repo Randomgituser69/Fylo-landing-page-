@@ -90,6 +90,17 @@ body {
   font-weight: 400;
   font-size: 1rem;
 }
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  justify-content: end;
+}
 .attribution { 
   font-size: 11px; 
   text-align: center; 
