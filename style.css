@@ -86,6 +86,8 @@ textarea:not([rows]) {
 --Light-Gray: hsl(0, 0%, 75%);
 }
 body {
+  text-align: center;
+  margin: 0;
   background-color: white;
   font-family: 'Open Sans', serif;
   font-weight: 400;
@@ -113,6 +115,9 @@ body {
   flex-direction: column;
 }
 input {
+  border: 1px solid var(--Very-Dark-Blue);
+  border-radius: 5px;
+  padding: 15px;
   color: var(--Light-Grayish-Blue)
 }
 a {
@@ -126,13 +131,10 @@ a {
 }
 button {
   border-radius: 6px;
-  padding: 10px;
+  padding: 15px;
   border: none;
   background-color: var(--Bright-Blue);
   color: var(--Light-Grayish-Blue);
-}
-input {
-  padding: 6px;
 }
 .productive {
   display: flex; 
@@ -153,7 +155,7 @@ input {
   flex-direction: column;
   background-color: var(--Desaturated-Blue);
   color: var(--Light-Grayish-Blue);
-  padding: 15px;
+  padding: 30px;
 }
 .feeter {
   color: var(--Light-Grayish-Blue)
@@ -163,6 +165,7 @@ input {
   flex-direction: row;
   gap: 5px;
 }
+
 .access input {
   color: var(--Light-Grayish-Blue);
 }
@@ -184,7 +187,7 @@ form {
 }
 .feeter {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
 }
 ul {
@@ -199,6 +202,9 @@ ul {
     grid-template-columns: repeat(2, 2fr);
     margin: 15px;
   }
+  body {
+    text-align: start;
+  }
   .productive {
     display: grid;
     grid-template-columns: repeat(2, 2fr);
@@ -209,6 +215,12 @@ ul {
   .access {
     display: grid;
     grid-template-columns: repeat(2, 2fr);
+  }
+  .feeter {
+    flex-direction: row;
+  }
+ .access button {
+    width: 15rem;
   }
 }
 .attribution { 
