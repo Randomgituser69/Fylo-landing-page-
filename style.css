@@ -97,8 +97,10 @@ body {
 .wrapper {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
   padding: 20px;
+}
+.wrapper img {
+  padding: 20px 15px;
 }
 .wrapper a {
   text-decoration: none;
@@ -107,8 +109,12 @@ body {
   border: 1px solid black;
   border-radius: 1rem;
   padding: 15px;
-  margin: 20px;
+  margin: 50px;
   background-color: white;
+}
+.card img {
+  display: block;
+  width: 69px;
 }
 .card p {
   display: flex;
@@ -128,6 +134,7 @@ a {
   flex-direction: column-reverse;
   padding: 15px;
   margin: 10px;
+  margin-bottom: 1em;
 }
 button {
   border-radius: 6px;
@@ -170,6 +177,8 @@ button {
   color: var(--Light-Grayish-Blue);
 }
 footer {
+  display: flex;
+  flex-direction: column;
   background-color: var(--Very-Dark-Blue);
   color: var(--Light-Grayish-Blue);
   padding: 15px;
@@ -218,6 +227,9 @@ ul {
   }
   .feeter {
     flex-direction: row;
+  }
+  footer {
+    
   }
  .access button {
     width: 15rem;
