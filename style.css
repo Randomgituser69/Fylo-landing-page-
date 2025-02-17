@@ -94,14 +94,15 @@ body {
   font-size: 1rem;
   color: var(--Very-Dark-Blue);
 }
+
 .wrapper {
   display: flex;
   flex-direction: row;
   padding: 20px;
-}
+} 
 .wrapper img {
-  padding: 20px 15px;
-}
+  padding: 20px 0px;
+} 
 .wrapper a {
   text-decoration: none;
 }
