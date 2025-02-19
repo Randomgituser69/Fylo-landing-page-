@@ -181,15 +181,20 @@ button:hover {
   color: var(--Light-Grayish-Blue);
   padding: 30px;
 }
-.feeter {
+.feeter { 
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: start;
+  text-align: start; 
   color: var(--Light-Grayish-Blue)
-}
-.feeter nav {
-  columns: 2;
+} 
+.feeter ul {
+   columns: 2 150px; 
+   column-gap: 60px;
+} 
+.social i:hover {
+  border-color: var(--Bright-Blue);
+  color: var(--Bright-Blue);
 }
 .feeter span {
   display: flex;
@@ -268,11 +273,11 @@ ul {
     display: grid;
     grid-template-columns: repeat(2, 2fr);
     text-align: start;
-  }
+  } 
   .feeter {
     display: flex;
     flex-direction: row;
-  }
+  } 
  .access button {
     width: 15rem;
   }
