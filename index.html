@@ -18,7 +18,7 @@
     />
     <link rel="stylesheet" href="style.css" />
     <title>Frontend Mentor | Fylo landing page with two column layout</title>
-
+    <script src="https://kit.fontawesome.com/70c69eb187.js" crossorigin="anonymous"></script>
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   </head>
   <body>
@@ -43,8 +43,11 @@
             them wherever you need, share and collaborate with friends, family,
             and co-workers.
           </p>
+          <form>
+            <label for="email"></label>
           <input type="text" placeholder="Enter your email..." />
           <button>Get Started</button>
+          </form>
         </div>
         <picture>
           <img
@@ -95,6 +98,7 @@
           </p>
         </div>
         <form>
+          <label for="email"></label>
           <input type="text" placeholder="email@example.com" />
           <button>Get Started For Free</button>
         </form>
@@ -103,7 +107,7 @@
     <footer>
       <section class="feeter">
         <div class="contact">
-          <img src="logo.svg" alt="Fylo logo" />
+          <div class="img"></div>
           <span><img src="icon-email.svg" /> Phone: +1-543-123-4567</span>
           <span><img src="icon-phone.svg" /> example@fylo.com</span>
         </div>
@@ -112,26 +116,28 @@
             <li><a href="#">About Us</a></li>
             <li><a href="#">Jobs</a></li>
             <li><a href="#">Press</a></li>
-            <li><a>Blog</a></li>
-          </ul>
-        </nav>
-        <nav>
-          <ul>
+            <li><a href="#">Blog</a></li>
             <li><a href="#">Contact Us</a></li>
-            <li><a href="#">Terms Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Privacy</a></li>
           </ul>
         </nav>
+        <div class="social">
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+        </div>
       </section>
 
       <div class="last">
-        <!-- <img src="favicon-32x32.png" /> -->
+        <img src="favicon-32x32.png" /> 
         <p class="attribution">
           Challenge by
           <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
             >Frontend Mentor</a
-          >. Coded by <a href="#">Your Name Here</a>.
+          >. Coded by <a href="https://www.frontendmentor.io/profile/Randomgituser69">Tahsin (Randomgituser69) </a>.
         </p>
       </div>
-    </footer>
+    </footer> 
   </body>
 </html>
