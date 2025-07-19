@@ -1,4 +1,4 @@
-const form = document.querySelector(form)
+const form = document.querySelector(button)
 const input = document.querySelectorAll(input)
 
 form.addEventListener('click', () => {
