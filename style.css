@@ -151,13 +151,14 @@ input {
   border: 1px solid var(--Very-Dark-Blue);
   border-radius: 0.313rem;
   padding: 1rem;
+  margin-top: 0.9em;
   color: var(--Light-Grayish-Blue);
 }
 
 .files {
   display: flex;
   flex-direction: column-reverse;
-  padding: 1rem;
+  padding: 1em;
   margin: 1.25rem;
   margin-bottom: 1em;
 }
@@ -175,12 +176,13 @@ button:hover {
 .productive {
   display: flex;
   flex-direction: column-reverse;
-  padding: 1rem;
+  padding: 2em;
   background-image: url("bg-curve-mobile.svg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 .productive a {
+  text-decoration: underline;
   border-bottom: var(--Moderate-Cyan);
   color: var(--Moderate-Cyan);
 }
@@ -192,7 +194,7 @@ button:hover {
   flex-direction: column;
   background-color: var(--Desaturated-Blue);
   color: var(--Light-Grayish-Blue);
-  padding: 1.875rem;
+  padding: 4em;
 }
 .access input {
   color: var(--Light-Grayish-Blue);
@@ -204,6 +206,7 @@ button:hover {
   justify-content: space-between;
   text-align: start;
   color: var(--Light-Grayish-Blue);
+  margin-top: 5em;
 }
 .feeter ul {
   columns: 2 9.375rem;
@@ -217,16 +220,12 @@ button:hover {
   flex-direction: row;
   gap: 0.313rem;
 }
-.social i:hover {
-  border-color: var(--Bright-Blue);
-  color: var(--Bright-Blue);
-}
 footer {
   display: flex;
   flex-direction: column;
   background-color: var(--Very-Dark-Blue);
   color: var(--Light-Grayish-Blue);
-  padding: 1rem;
+  padding: 3rem;
 }
 form {
   display: flex;
@@ -246,6 +245,10 @@ form {
   border-radius: 4.313rem;
   padding: 0.625rem;
   font-size: 0.9rem;
+}
+.social i:hover {
+  border-color: var(--Bright-Blue);
+  color: var(--Bright-Blue);
 }
 ul {
   list-style: none;
