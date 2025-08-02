@@ -110,7 +110,12 @@ textarea:not([rows]) {
   --Light-Grayish-Blue: hsl(240, 75%, 98%);
   --Light-Gray: hsl(0, 0%, 75%);
 }
-
+h1 {
+  font-size: 2em;
+}
+h2 {
+  font-size: 2rem;
+}
 .wrapper {
   display: flex;
   flex-direction: row;
@@ -249,9 +254,6 @@ form {
 .social i:hover {
   border-color: var(--Bright-Blue);
   color: var(--Bright-Blue);
-}
-ul {
-  list-style: none;
 }
 .last {
   display: flex;
