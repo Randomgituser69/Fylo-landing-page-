@@ -67,6 +67,7 @@ h4 {
 
 /* A elements that don't have a class get default styles */
 a:not([class]) {
+  text-decoration: none; /* additional */
   text-decoration-skip-ink: auto;
   color: currentColor;
 }
@@ -135,8 +136,8 @@ textarea:not([rows]) {
   text-align: start;
 }
 .card img {
-  width: 50px;
-  height: 95px;
+  width: 3.125rem;
+  height: 5.938rem;
 }
 .card p {
   display: flex;
@@ -148,13 +149,11 @@ textarea:not([rows]) {
 }
 input {
   border: 1px solid var(--Very-Dark-Blue);
-  border-radius: 5px;
+  border-radius: 0.313rem;
   padding: 1rem;
   color: var(--Light-Grayish-Blue);
 }
-a {
-  text-decoration: none;
-}
+
 .files {
   display: flex;
   flex-direction: column-reverse;
@@ -163,7 +162,7 @@ a {
   margin-bottom: 1em;
 }
 button {
-  border-radius: 6px;
+  border-radius: 0.375rem;
   padding: 1rem;
   border: none;
   background-color: var(--Bright-Blue);
@@ -207,8 +206,8 @@ button:hover {
   color: var(--Light-Grayish-Blue);
 }
 .feeter ul {
-  columns: 2 150px;
-  column-gap: 60px;
+  columns: 2 9.375rem;
+  column-gap: 3.75rem;
 }
 .feeter li:hover {
   color: var(--Bright-Blue);
@@ -216,7 +215,7 @@ button:hover {
 .feeter span {
   display: flex;
   flex-direction: row;
-  gap: 5px;
+  gap: 0.313rem;
 }
 .social i:hover {
   border-color: var(--Bright-Blue);
@@ -232,19 +231,19 @@ footer {
 form {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 0.625rem;
 }
 
 .social {
   display: flex;
   flex-direction: row;
-  gap: 5px;
+  gap: 0.313rem;
   padding: 1.25rem;
 }
 .social i {
   color: #fff;
   border: 1px solid #fff;
-  border-radius: 69px;
+  border-radius: 4.313rem;
   padding: 0.625rem;
   font-size: 0.9rem;
 }
@@ -254,7 +253,7 @@ ul {
 .last {
   display: flex;
   flex-direction: row;
-  gap: 5px;
+  gap: 0.313rem;
   justify-content: center;
 }
 .attribution {
